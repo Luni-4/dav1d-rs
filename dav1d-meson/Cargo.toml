@@ -1,0 +1,15 @@
+[package]
+name = "dav1d-meson"
+version = "0.2.0"
+authors = ["Luni-4"]
+license = "MIT"
+description = "Build dav1d using meson"
+repository = "https://github.com/rust-av/dav1d"
+
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.49"
+pkg-config = "0.3.12"
+
+[dependencies]

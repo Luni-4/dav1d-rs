@@ -13,5 +13,5 @@ version = "0.2.0"
 dav1d-sys = { version = "0.2.0", path = "dav1d-sys" }
 
 [workspace]
-members = ["dav1d-sys", "tools"]
+members = ["dav1d-sys", "tools", "dav1d-meson"]
 
